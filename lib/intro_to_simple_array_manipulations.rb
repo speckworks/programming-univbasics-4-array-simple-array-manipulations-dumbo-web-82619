@@ -7,3 +7,15 @@ def using_push(colors_in_the_rainbow, next_color)
     return updated_array
     end
 end
+
+
+  # Using "Unshift" 
+  #it "takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method" do
+  #   expect(@updated_array.first).to eq(@new_neighborhood)
+  # end
+
+def using_unshift(bouroughs_in_nyc, @new_neighborhood)
+    boroughs_num = bouroughs_in_nyc.push(@new_neighborhood)
+    return boroughs_num
+end
+puts
